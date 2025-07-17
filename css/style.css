@@ -1,3 +1,7 @@
+$font-primary: 'Open Sans', sans-serif;
+$font-secondary: 'Montserrat', sans-serif;
+$color-primary:#ffb600;
+
 @mixin mobile-xs{
   @media(max-width:400px){
     @content;
@@ -32,11 +36,6 @@
 @mixin size($size){
   width: $size; height: $size;
 }
-
-$font-primary: 'Open Sans', sans-serif;
-$font-secondary: 'Montserrat', sans-serif;
-
-$color-primary:#ffb600;
 
 @import url(https://fonts.googleapis.com/css?family=Montserrat:300,400,400i,500,500i,600,600i,700,700i,800|Open+Sans:400,400i,600,600i,700,700i,800&display=swap);
 
